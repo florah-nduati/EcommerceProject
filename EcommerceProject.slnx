@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Src/">
+    <Project Path="ShoppingCart.App/ShoppingCart.App.csproj" />
+    <Project Path="ShoppingCart.Application/ShoppingCart.Application.csproj" />
+    <Project Path="ShoppingCart.Domain/ShoppingCart.Domain.csproj" />
+    <Project Path="ShoppingCart.Infrastructure/ShoppingCart.Infrastructure.csproj" />
+    <Project Path="ShoppingCart.Persistence/ShoppingCart.Persistence.csproj" />
+    <Project Path="ShoppingCart.Presentation/ShoppingCart.Presentation.csproj" />
+  </Folder>
+</Solution>
