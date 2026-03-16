@@ -5,6 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.Asp.netCore.App" />
+	</ItemGroup>
 
   <ItemGroup>
     <Folder Include="Authentication\" />
@@ -17,6 +20,11 @@
     <Folder Include="Resolvers\" />
     <Folder Include="Providers\" />
     <Folder Include="Policies\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
   </ItemGroup>
 
 </Project>
