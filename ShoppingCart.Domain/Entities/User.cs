@@ -8,13 +8,13 @@ namespace ShoppingCart.Domain.Entities
 {
     public sealed class User
     {
-        public string Username Username{ get; set; }
-        public string Email Email{ get; set; }
-        public string PasswordHash PasswordHash { get; set; }
-        private User(UserId id,Username username, Email email) { }
-        public static User Create (UserId id,Username username, Email email)
+        public Username Username{ get; set; }
+        public  Email Email{ get; set; }
+        public  PasswordHash PasswordHash { get; set; }
+        private User(UserId id,Username username, Email email, PasswordHash passwordHash) { }
+        public static User Create (UserId id,Username username, Email email, PasswordHash passwordHash)
         {
-            var user = new User(id, username, email);
+            var user = new User(id, username, email, passwordHash);
             return user;
 
         }
