@@ -7,18 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="EntityIds\" />
     <Folder Include="EntityKeys\" />
     <Folder Include="Abstractions\" />
-    <Folder Include="BaseTypes\" />
     <Folder Include="Constants\" />
     <Folder Include="DomainEvents\" />
     <Folder Include="Enums\" />
     <Folder Include="Errors\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Common\" />
-    <Folder Include="ValueObjects\" />
     <Folder Include="Utilities\" />
     <Folder Include="Results\" />
   </ItemGroup>
