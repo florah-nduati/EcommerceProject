@@ -7,15 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
     <Folder Include="Cache\" />
     <Folder Include="Constants\" />
     <Folder Include="Exceptions\" />
-    <Folder Include="Features\" />
+    <Folder Include="Features\Users\Queries\" />
     <Folder Include="Mapping\" />
     <Folder Include="Middlewares\" />
     <Folder Include="Utilities\" />
     <Folder Include="Pipelines\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Domain\ShoppingCart.Domain.csproj" />
   </ItemGroup>
 
 </Project>
