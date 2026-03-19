@@ -21,9 +21,13 @@ namespace ShoppingCart.Domain.Errors
         {
                        return new Error(code, message);
         }
-        public bool Equals(Error? other)
+        public virtual bool Equals(Error? other)
         {
-            throw new NotImplementedException();
+            if(other is null)
+            {
+                return false;
+            }
+            return Code == other.Code && Message == other.Message;
         }
     }
 }
