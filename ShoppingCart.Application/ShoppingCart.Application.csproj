@@ -10,6 +10,7 @@
     <Folder Include="Cache\" />
     <Folder Include="Constants\" />
     <Folder Include="Exceptions\" />
+    <Folder Include="Features\Products\Commands\" />
     <Folder Include="Features\Users\Queries\" />
     <Folder Include="Mapping\" />
     <Folder Include="Middlewares\" />
