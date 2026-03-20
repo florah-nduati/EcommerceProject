@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShoppingCart.Application.Abstractions.CQRS;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,5 +11,5 @@ namespace ShoppingCart.Application.Features.Users.Commands
             string Email,
             string Password,
             string ConfirmPassword
-  );
+  ) : ICommand<RegisterUserResponse>;
 }

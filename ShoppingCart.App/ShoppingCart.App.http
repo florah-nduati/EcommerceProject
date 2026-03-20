@@ -4,3 +4,5 @@ GET {{ShoppingCart.App_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{ShoppingCart.App_HostAddress}}/api/users
+Accept: application/json
