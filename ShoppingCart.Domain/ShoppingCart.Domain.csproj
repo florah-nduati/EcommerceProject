@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="EntityKeys\" />
-    <Folder Include="Abstractions\" />
     <Folder Include="Constants\" />
     <Folder Include="DomainEvents\" />
     <Folder Include="Enums\" />
