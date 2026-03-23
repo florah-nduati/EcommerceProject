@@ -1,5 +1,5 @@
 ﻿using ShoppingCart.Application.Abstractions.CQRS;
-using ShoppingCart.Domain.Entities;
+using ShoppingCart.Domain.EntityIds;
 using System;
 using System.Collections.Generic;
 using System.Text;

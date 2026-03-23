@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingCart.Application.Features.Products.Queries;
-using ShoppingCart.Domain.Entities;
+using ShoppingCart.Domain.EntityIds;
 using ShoppingCart.Presentation.Abstraction;
 using System;
 using System.Collections.Generic;

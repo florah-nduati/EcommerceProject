@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ShoppingCart.Domain.Entities
+namespace ShoppingCart.Domain.EntityIds
 {
     public readonly record struct  ProductId 
     {
