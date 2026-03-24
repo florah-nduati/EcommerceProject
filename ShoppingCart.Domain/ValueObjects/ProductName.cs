@@ -8,7 +8,7 @@ namespace ShoppingCart.Domain.ValueObjects
 {
     public sealed class ProductName : ValueObject
     {
-        public new string Value { get; set; }
+        public new string Value { get; }
         private ProductName(string value)
         {
             Value = value;
@@ -20,7 +20,7 @@ namespace ShoppingCart.Domain.ValueObjects
         private static IList<Error> Validate(string productName)
         {
             return EmptyList<Error>()
-                .if()
+                .if(productName.isNullOrWhiteSpace)
         }
     }
 
